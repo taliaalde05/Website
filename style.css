@@ -1,0 +1,285 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background-image: url(https://media.giphy.com/media/znFOMXuHVkV36qzdbJ/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.bg{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 260px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 70px;
+    cursor:pointer;
+    margin-left: 40px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: "Georgia";
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+   color: antiquewhite; 
+   font-size: 100px;
+   font-family: "CentSchbkCyrill BT";
+}
+p{
+    color: aliceblue;
+    font-size: 15px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: rgb(250, 250, 255);
+    font-size: 15px;
+    padding: 12px 0;
+    background: rgb(95, 95, 173);
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 30px;
+    font-family: "Arial Rounded MT";
+}
+.card{
+    width: 230px;
+    height: 260px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/4.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(images/L.png);
+}
+.card2{
+    background-image: url(images/T.png);
+}
+.card3{
+    background-image: url(images/W.png);
+}
+.card4{
+    background-image: url(images/C.png);
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.lessons .know .ledge{
+    width: 300px;
+    height: 160px;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+.ledge{
+    list-style: none;
+    display: inline-block;
+    padding-top: 20%;
+    padding-left: 15%;
+    padding-right: 10%;
+
+}
+.know .ledge a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: "Georgia";
+}
+.lessons img{
+   padding: auto;
+}
+.v1 {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    font-family: "Gadugi";
+    font-weight: 100;
+    color: rgb(241, 234, 234);
+}
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 100;
+    font-family: "Calisto MT";
+    color: aquamarine;
+}
+.bg2{
+    width:100%;
+    height: 1000%;
+    background: linear-gradient(rgba(3, 3, 54, 0.652),rgba(130, 147, 217, 0.668)), url(images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.frame{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    
+}
+.frame iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.website{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(rgba(3, 3, 54, 0.652),rgba(130, 147, 217, 0.668)), url(images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 12%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: transform 0.5s;
+}
+.wrapper img{
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.wrapper a:hover{
+    background-color: aqua;
+}
+.wrapper a:link{
+    color: black;
+}
+.wrapper a:visited{
+    color: rgba(165, 42, 42, 0.838);
+}
+.wrapper img:hover{
+    transform: translateY(-20px);
+}
+.webdev {
+    height: 20vh;
+	width: 100%;
+	background-image: url(images/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	display: table;
+	background-attachment: fixed;
+    border: dotted rgba(3, 103, 108, 0.688) 15px;
+    border-radius: 15px;
+}
+.webdev .para1 {
+    font-size: 50px;
+    font-family: "Perpetua Titling MT";
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 5%;
+}
+.out h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Palatino Linotype";
+    padding-top: 2%;
+}
+.css{
+    width:100%;
+    height: 1000%;
+    background-image:linear-gradient(rgba(11, 128, 0, 0.486),rgba(11, 3, 61, 0.547)), url(https://media.giphy.com/media/znFOMXuHVkV36qzdbJ/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.out .para2{
+    color: rgb(88, 223, 216);
+    font-size: 20px;
+    font-family: "Futura Md BT";
+    padding-top: 2%;
+    text-align: center;
+    border: solid 5px rgba(26, 85, 1, 0.885);
+    letter-spacing: 2px;
+}
+.out img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding-bottom: 2%;
+    width: 350px;
+    height: 335px;
+}
+.bry .cL img{
+    margin: auto;
+    padding-top: 5%;
+    padding-right: 1%;
+}
+.bry{
+    padding-left: 10%;
+}
